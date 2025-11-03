@@ -3,7 +3,7 @@
 import { FilterQuery, SortOrder } from "mongoose"; // import Mongoose types for filtering and sorting operations
 
 import Community from "../models/community.model"; // import Community model to interact with 'communities' collection
-import Thread from "../models/thread.model"; // import Thread model to interact with 'threads' collection (not used in this function)
+import Thread from "../models/thread.model"; // import Thread model to interact with 'threads'collection
 import User from "../models/user.model"; // import User model to access and modify user data
 
 import { connectToDB } from "../mongoose"; // import function to establish a MongoDB database connection
