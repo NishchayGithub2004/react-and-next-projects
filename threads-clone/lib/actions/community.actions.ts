@@ -1,6 +1,6 @@
 "use server"; // declare this module to run on the server side within Next.js server actions environment
 
-import { FilterQuery, SortOrder } from "mongoose"; // import Mongoose types for filtering and sorting operations (not directly used here but available for related logic)
+import { FilterQuery, SortOrder } from "mongoose"; // import Mongoose types for filtering and sorting operations
 
 import Community from "../models/community.model"; // import Community model to interact with 'communities' collection
 import Thread from "../models/thread.model"; // import Thread model to interact with 'threads' collection (not used in this function)
