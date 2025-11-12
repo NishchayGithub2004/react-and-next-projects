@@ -25,8 +25,8 @@ function UserCard({ id, name, username, imgUrl, personType }: Props) {
         <div className='relative h-12 w-12'>
           <Image
             src={imgUrl} // display user or community profile image
-            alt='user_logo' // provide descriptive alt text for accessibility
-            fill // ensure the image fills the container size responsively
+            alt='user_logo'
+            fill
             className='rounded-full object-cover'
           />
         </div>
