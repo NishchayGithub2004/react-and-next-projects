@@ -33,8 +33,8 @@ const LeftSidebar = () => { // define a functional component named 'LeftSidebar'
               <Image
                 src={link.imgURL} // render the link’s associated icon
                 alt={link.label} // add descriptive alt text for accessibility
-                width={24} // set icon width
-                height={24} // set icon height
+                width={24}
+                height={24}
               />
 
               <p className='text-light-1 max-lg:hidden'>{link.label}</p> {/* render label text for the link, hidden on smaller screens */}
@@ -48,10 +48,10 @@ const LeftSidebar = () => { // define a functional component named 'LeftSidebar'
           <SignOutButton signOutCallback={() => router.push("/sign-in")}> {/* define sign-out button and redirect to sign-in after logout */}
             <div className='flex cursor-pointer gap-4 p-4'>
               <Image
-                src='/assets/logout.svg' // show logout icon image
-                alt='logout' // provide alt text for accessibility
-                width={24} // define icon width
-                height={24} // define icon height
+                src='/assets/logout.svg'
+                alt='logout'
+                width={24}
+                height={24}
               />
 
               <p className='text-light-2 max-lg:hidden'>Logout</p> {/* display logout label, hidden on smaller devices */}
