@@ -29,11 +29,11 @@ function Searchbar({ routeType }: Props) { // define a functional component name
   return ( // return jsx structure for rendering the search bar
     <div className='searchbar'>
       <Image
-        src='/assets/search-gray.svg' // set source for search icon image
-        alt='search' // add alt text for accessibility
-        width={24} // set icon width
-        height={24} // set icon height
-        className='object-contain' // ensure icon maintains aspect ratio within container
+        src='/assets/search-gray.svg'
+        alt='search'
+        width={24}
+        height={24}
+        className='object-contain'
       />
       <Input
         id='text' // assign input field id for accessibility

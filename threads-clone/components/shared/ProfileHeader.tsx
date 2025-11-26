@@ -28,8 +28,8 @@ function ProfileHeader({ // define a functional component named 'ProfileHeader' 
             <Image
               src={imgUrl} // set profile image source from provided imgUrl
               alt='logo'
-              fill // fill container area with image for responsive scaling
-              className='rounded-full object-cover shadow-2xl' // apply circular crop and shadow for visual design
+              fill
+              className='rounded-full object-cover shadow-2xl'
             />
           </div>
 
@@ -51,7 +51,7 @@ function ProfileHeader({ // define a functional component named 'ProfileHeader' 
                 height={16}
               />
 
-              <p className='text-light-2 max-sm:hidden'>Edit</p> {/* render 'Edit' text label, hidden on small screens */}
+              <p className='text-light-2 max-sm:hidden'>Edit</p>
             </div>
           </Link>
         )}
@@ -59,7 +59,7 @@ function ProfileHeader({ // define a functional component named 'ProfileHeader' 
 
       <p className='mt-6 max-w-lg text-base-regular text-light-2'>{bio}</p> {/* render user's biography text */}
 
-      <div className='mt-12 h-0.5 w-full bg-dark-3' /> {/* render visual divider below profile section */}
+      <div className='mt-12 h-0.5 w-full bg-dark-3' />
     </div>
   );
 }
